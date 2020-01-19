@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="24px" viewBox="0 0 47 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>90E8143F-804B-43D1-935C-CBBBCDD1C182</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Full-landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="landing-green-v1.3-2" transform="translate(-197.000000, -675.000000)" stroke="#FFFFFF" stroke-width="3">
+            <g id="hero" transform="translate(-15.000000, 53.000000)">
+                <g id="Group-7" transform="translate(193.000000, 148.000000)">
+                    <g id="Group-8" transform="translate(0.000000, 456.000000)">
+                        <g id="button-arrow" transform="translate(20.564594, 20.000000)">
+                            <line x1="1.8189894e-12" y1="10" x2="43.4354056" y2="10" id="Path-58"></line>
+                            <line x1="43.4354056" y1="10" x2="34.4354056" y2="0" id="Path-59" stroke-linejoin="bevel"></line>
+                            <line x1="43.4354056" y1="20" x2="34.4354056" y2="10" id="Path-59" stroke-linejoin="bevel" transform="translate(38.935406, 15.000000) scale(1, -1) translate(-38.935406, -15.000000) "></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
