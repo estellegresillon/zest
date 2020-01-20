@@ -17,7 +17,7 @@ export default () =>
         Pricing
       </div>
 
-      <div className="menu-item btn">
+      <div className="btn btn-rounded">
         Start for free
       </div>
     </div>

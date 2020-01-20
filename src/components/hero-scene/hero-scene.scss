@@ -1,0 +1,164 @@
+$lines: #DDE6EF;
+$purple: #9D98EC;
+$green: #00D385;
+
+.hero-scene {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  height: 85vh;
+  padding-top: 15vh;
+  background-image: url("/stat-line-gradient.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 20vh;
+
+  .hero-scene-left {
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    opacity: 0;
+    left: 10%;
+    animation: 1s slideFromLeft;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+
+    h1 { margin-bottom: 0; }
+
+    p {
+      width: 60%;
+      font-size: 20px;
+    }
+
+    .btn {
+      width: 40px;
+      margin-top: 30px;
+
+      img { width: 40px; }
+    }
+  }
+
+  .hero-scene-right {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    opacity: 0;
+    right: 0%;
+    height: 100%;
+    width: 50%;
+    animation: 1s slideFromRight;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+    img {
+      width: auto;
+      max-height: 80%;
+    }
+  }
+
+  .background-dots {
+    position: absolute;
+    z-index: -999;
+    bottom: -40%;
+    left: 0;
+  }
+
+  .background-circle-top {
+    position: absolute;
+    bottom: 44vh;
+    right: 3vw;
+    animation: 2s rotateDots infinite;
+  }
+
+  .background-circle-bottom {
+    position: absolute;
+    bottom: 4vh;
+    left: 43vw;
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .dot {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 3px;
+  }
+
+  .grey-dot-center {
+    top: 7vh;
+    left: 35vw;
+    background-color: $lines;
+    transform: rotate(42deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .grey-dot-right {
+    top: 17vh;
+    right: 10vw;
+    background-color: $lines;
+    transform: rotate(67deg);
+    animation: 3s rotateDots infinite;
+  }
+
+  .green-dot-left {
+    bottom: 10vh;
+    left: 30vw;
+    background-color: $green;
+    transform: rotate(67deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .green-dot-right {
+    bottom: 25vh;
+    right: 4vw;
+    background-color: $green;
+    animation: 3s rotateDots infinite;
+  }
+
+  .purple-dot-top {
+    top: 27vh;
+    left: 52vw;
+    background-color: $purple;
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .purple-dot-bottom {
+    bottom: 20vh;
+    left: 5vw;
+    background-color: $purple;
+    animation: 2s rotateDots infinite;
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  to {
+    opacity: 1;
+    left: 10%;
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    right: -5%
+  }
+  to {
+    opacity: 1;
+    right: 0%;
+  }
+}
+
+@keyframes rotateDots {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

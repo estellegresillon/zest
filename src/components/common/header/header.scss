@@ -7,11 +7,13 @@ header {
   position: absolute;
   width: 100vw;
   height: 120px;
-  top: 0;
   left: 0;
   justify-content: space-between;
   align-items: center;
   z-index: 999;
+  opacity: 0;
+  animation: 0.5s fadeInMenu;
+  animation-fill-mode: forwards;
 
   .section-left {
     width: 20%;
@@ -30,7 +32,7 @@ header {
 
     .menu-item {
       cursor: pointer;
-      margin-left: 10%;
+      margin-right: 10%;
       transition: 1s all ease;
 
       &:hover { color: $main-hover; }
@@ -39,23 +41,16 @@ header {
         transition: none;
       }
     }
+  }
+}
 
-    .btn {
-      color: #fff;
-      background-color: $main;
-      border-radius: 32px;
-      padding: 9px 20px 6px;
-      transition: 1s all ease;
-
-      &:hover { 
-        background-color: $main-hover;
-        color: #fff;
-      }
-      &:active { 
-        background-color: $main-active;
-        color: #fff;
-        transition: none;
-      }
-    }
+@keyframes fadeInMenu {
+  from {
+    opacity: 0;
+    top: -5%
+  }
+  to {
+    opacity: 1;
+    top: 0%
   }
 }

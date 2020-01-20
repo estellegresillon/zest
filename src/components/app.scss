@@ -1,5 +1,4 @@
 $main: #04004D;
-$green: #00D385;
 $purple: #9D98EC;
 
 .Zest {
@@ -7,38 +6,48 @@ $purple: #9D98EC;
   display: flex;
   flex-direction: column;
 
-  section {
+  .trapeze {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+
+  .money-control {
     position: relative;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
     .trapeze {
-      position: absolute;
-      top: 0;
-      z-index: -1;
+      left: 0;
+      width: 50vw;
     }
+  }
 
-    &.money-control {
-      .trapeze {
-        left: 0;
-        width: 50vw;
-      }
+  .invoicing {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+
+    .trapeze {
+      right: 0;
+      width: calc(50vw + 1px);
     }
+  }
 
-    &.invoicing {
-      margin-top: 10vh;
-
-      .trapeze {
-        right: 0;
-        width: calc(50vw + 1px);
-      }
-    }
-
-    &.mobile-accounts {
-      margin-top: 10vh;
-    }
+  .mobile-accounts {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
   }
 }

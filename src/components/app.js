@@ -2,6 +2,7 @@ import React from "react";
 
 import "./app.scss";
 import Header from "./common/header";
+import HeroScene from "./hero-scene";
 import Background from "./common/background";
 
 const App = () => {
@@ -9,12 +10,11 @@ const App = () => {
     <div className="Zest">
       <Header />
 
-      <section className="hero-scene">
-        Smart banking for freelances
-      </section>
+      <HeroScene />
 
       <section className="money-control">
         Total control over your money
+        <img src="money-control.svg" alt="money-control" />
         <img className="trapeze" src="trapeze-money-control.svg" alt="bg-trapeze" />
       </section>
 
