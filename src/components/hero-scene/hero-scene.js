@@ -16,13 +16,13 @@ export default () =>
       <img src='iphone-stats.svg' alt="mobile-statistics" />
     </div>
 
-    <img className="background-dots" src="dots-hero-group.svg" alt="background-dots" />
-    <img className="background-circle-top" src="curve-1.svg" alt="background-circle" />
-    <img className="background-circle-bottom" src="curve-1.svg" alt="background-circle" />
-    <div className="dot grey-dot-center" />
-    <div className="dot grey-dot-right" />
-    <div className="dot purple-dot-top" />
-    <div className="dot purple-dot-bottom" />
-    <div className="dot green-dot-left" />
-    <div className="dot green-dot-right" />
+    <img className="background-dots fade-in" src="dots-hero-group.svg" alt="background-dots" />
+    <img className="background-circle-top fade-in" src="curve-1.svg" alt="background-circle" />
+    <img className="background-circle-bottom fade-in" src="curve-1.svg" alt="background-circle" />
+    <div className="dot grey-dot-center fade-in" />
+    <div className="dot grey-dot-right fade-in" />
+    <div className="dot purple-dot-top fade-in" />
+    <div className="dot purple-dot-bottom fade-in" />
+    <div className="dot green-dot-left fade-in" />
+    <div className="dot green-dot-right fade-in" />
   </section>
