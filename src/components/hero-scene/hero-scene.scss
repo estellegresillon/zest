@@ -103,7 +103,7 @@ $green: #00D385;
   }
 
   .green-dot-left {
-    bottom: 10vh;
+    top: 90vh;
     left: 30vw;
     background-color: $green;
     transform: rotate(67deg);
@@ -111,7 +111,7 @@ $green: #00D385;
   }
 
   .green-dot-right {
-    bottom: 25vh;
+    top: 75vh;
     right: 4vw;
     background-color: $green;
     animation: 3s rotateDots infinite;
@@ -125,7 +125,7 @@ $green: #00D385;
   }
 
   .purple-dot-bottom {
-    bottom: 20vh;
+    top: 80vh;
     left: 5vw;
     background-color: $purple;
     animation: 2s rotateDots infinite;
@@ -156,9 +156,15 @@ $green: #00D385;
 
 @keyframes rotateDots {
   from {
+    margin-top: 0px;
     transform: rotate(0deg);
   }
+  50% {
+    margin-top: 15px;
+    transform: rotate(180deg);
+  }
   to {
+    margin-top: 0px;
     transform: rotate(360deg);
   }
 }
