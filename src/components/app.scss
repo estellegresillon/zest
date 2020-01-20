@@ -1,0 +1,63 @@
+$main: #04004D;
+$green: #00D385;
+$violet: #9D98EC;
+$trapeze: linear-gradient(180deg, #FBFCFF 0%, #F6F8FF 100%);
+$lines: #DDE6EF;
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .lined-bg {
+    top: 0;
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    z-index: -999;
+
+    div {
+      border-right: 1px solid $lines;
+      height: 100%;
+      width: calc(100vw / 6);
+
+      &:last-child { border-right: 1px solid #fff; }
+    }
+    .one {
+      grid-column: 1;
+    }
+    .two { 
+      grid-column: 2;
+    }
+    .three {
+      grid-column: 3;
+    }
+    .four {
+      grid-column: 4;
+    }
+    .five {
+      grid-column: 5;
+    }
+    .six {
+      grid-column: 6;
+    }
+  }
+
+  header {
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    top: 0;
+    left: 0;
+  }
+
+  section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
