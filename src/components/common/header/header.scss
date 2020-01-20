@@ -1,5 +1,5 @@
 $main: #04004D;
-$main-hover: #070091;
+$main-hover: #0800a7;
 $main-active: #040038;
 
 header {
@@ -31,9 +31,13 @@ header {
     .menu-item {
       cursor: pointer;
       margin-left: 10%;
+      transition: 1s all ease;
 
       &:hover { color: $main-hover; }
-      &:active { color: $main-active; }
+      &:active { 
+        color: $main-active;
+        transition: none;
+      }
     }
 
     .btn {
@@ -41,6 +45,7 @@ header {
       background-color: $main;
       border-radius: 32px;
       padding: 9px 20px 6px;
+      transition: 1s all ease;
 
       &:hover { 
         background-color: $main-hover;
@@ -49,6 +54,7 @@ header {
       &:active { 
         background-color: $main-active;
         color: #fff;
+        transition: none;
       }
     }
   }
