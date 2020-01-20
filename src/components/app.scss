@@ -1,6 +1,3 @@
-$main: #04004D;
-$purple: #9D98EC;
-
 .Zest {
   position: relative;
   display: flex;
@@ -10,30 +7,5 @@ $purple: #9D98EC;
     position: absolute;
     top: 0;
     z-index: -1;
-  }
-
-  .invoicing {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10vh;
-
-    .trapeze {
-      right: 0;
-      width: calc(50vw + 1px);
-    }
-  }
-
-  .mobile-accounts {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10vh;
   }
 }

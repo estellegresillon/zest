@@ -1,0 +1,147 @@
+$main: #04004D;
+$lines: #DDE6EF;
+$darker-lines: #7C79A6;
+$green: #00D385;
+
+.mobile-accounts {
+  position: relative;
+  width: 66vw;
+  height: 117vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  padding: 0 17vw;
+
+  .dot {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 3px;
+  }
+
+  .green-dot-right {
+    top: 95vh;
+    right: 20vw;
+    background-color: $green;
+    animation: 3s rotateDots infinite;
+  }
+
+  .grey-dot-left {
+    top: 52vh;
+    left: 35vw;
+    background-color: $lines;
+    transform: rotate(42deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .grey-dot-top {
+    top: 2vh;
+    left: 25vw;
+    background-color: $lines;
+    transform: rotate(42deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .background-circle-bottom {
+    position: absolute;
+    top: 70vh;
+    right: 7vw;
+    animation: 5s rotateDots infinite linear;
+  }
+
+  p {
+    color: $darker-lines;
+    font-size: 20px;
+  }
+
+  .top-section, .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40vh;
+
+    .title {
+      color: $main;
+    }
+
+    .intro {
+      margin-top: 30px;
+      padding: 30px 0px 0 20px;
+      border-top: 1px solid $lines;
+    }
+  }
+
+  .left-column, .right-column { opacity: 0; }
+
+  .top-section {
+    align-items: flex-end;
+
+    .right-column {
+      text-align: right;
+      justify-content: flex-end;
+      width: 45%;
+    }
+  }
+
+  .bottom-section {
+    margin-top: 10vh;
+    align-items: flex-start;
+
+    .right-column {
+      justify-content: flex-start;
+      width: 50%;
+    }
+  }
+
+  .left-column {
+    width: 45%;
+    margin-right: 5%;
+  }
+
+  .background-dots-left {
+    position: absolute;
+    z-index: -999;
+    bottom: 10%;
+    left: 0vw;
+  }
+
+  .background-dots-right {
+    position: absolute;
+    z-index: -999;
+    bottom: 45%;
+    right: 0vw;
+  }
+
+  .transition-on {
+    animation: 2s slideFromBottom;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes slideFromBottom {
+  from {
+    opacity: 0;
+    margin-top: 10%;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0%;
+  }
+}
+
+@keyframes rotateDots {
+  from {
+    margin-top: 0px;
+    transform: rotate(0deg);
+  }
+  50% {
+    margin-top: 15px;
+    transform: rotate(180deg);
+  }
+  to {
+    margin-top: 0px;
+    transform: rotate(360deg);
+  }
+}

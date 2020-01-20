@@ -30,7 +30,7 @@ const MoneyControl = () => {
         onLeave={() => handleWaypointLeave(".money-control-right")}
       >
         <div className="money-control-right">
-          <h2>Total <span className="green-text">control</span> over your <span className="green-text">money</span></h2>
+          <h2>Total <span className="green-text">control</span><br /> over your <span className="green-text">money</span></h2>
 
           <div className="list-item">
             <div className="dot purple-dot-key" />
@@ -59,6 +59,7 @@ const MoneyControl = () => {
       <div className="dot green-dot-right" />
       <div className="dot grey-dot-left" />
       <div className="dot grey-dot-center" />
+      <div className="dot grey-dot-bottom" />
       <img className="background-circle-bottom" src="curve-1.svg" alt="background-circle" />
       <img className="trapeze" src="trapeze-money-control.svg" alt="bg-trapeze" />
     </section>

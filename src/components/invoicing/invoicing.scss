@@ -3,17 +3,86 @@ $darker-lines: #7C79A6;
 $purple: #9D98EC;
 $green: #00D385;
 
-.money-control {
+.invoicing {
   position: relative;
   width: 100vw;
-  height: 145vh;
+  height: 140vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5vh;
 
   .trapeze {
-    left: 0;
-    width: 50vw;
+    right: 0;
+    width: calc(50vw + 1px);
+  }
+
+  .background-dots {
+    position: absolute;
+    z-index: -999;
+    bottom: 5%;
+    left: 45vw;
+  }
+
+  .background-circle-top {
+    position: absolute;
+    top: 0vh;
+    right: 5vw;
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .background-circle-bottom {
+    position: absolute;
+    top: 90vh;
+    right: 51vw;
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .grey-dot-right {
+    top: 110vh;
+    right: 24vw;
+    background-color: $lines;
+    transform: rotate(42deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .grey-dot-left {
+    top: 97vh;
+    left: 35vw;
+    background-color: $lines;
+    transform: rotate(42deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .green-dot-right {
+    top: 25vh;
+    right: 24vw;
+    background-color: $green;
+    animation: 3s rotateDots infinite;
+  }
+
+  .green-dot-left {
+    top: 30vh;
+    left: 4vw;
+    background-color: $green;
+    transform: rotate(67deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .green-dot-center {
+    top: 1vh;
+    left: 40vw;
+    background-color: $green;
+    transform: rotate(67deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .green-dot-bottom {
+    top: 150vh;
+    left: 40vw;
+    background-color: $green;
+    transform: rotate(67deg);
+    animation: 5s rotateDots infinite linear;
   }
 
   .dot {
@@ -23,57 +92,7 @@ $green: #00D385;
     border-radius: 3px;
   }
 
-  .grey-dot-center {
-    top: 37vh;
-    left: 52vw;
-    background-color: $lines;
-    transform: rotate(42deg);
-    animation: 5s rotateDots infinite linear;
-  }
-
-  .grey-dot-left {
-    top: 27vh;
-    left: 5vw;
-    background-color: $lines;
-    transform: rotate(42deg);
-    animation: 5s rotateDots infinite linear;
-  }
-
-  .grey-dot-bottom {
-    top: 130vh;
-    left: 55vw;
-    background-color: $lines;
-    transform: rotate(42deg);
-    animation: 5s rotateDots infinite linear;
-  }
-
-  .green-dot-right {
-    top: 25vh;
-    right: 4vw;
-    background-color: $green;
-    animation: 3s rotateDots infinite;
-  }
-
-  .green-dot-left {
-    top: 110vh;
-    left: 10vw;
-    background-color: $green;
-    transform: rotate(67deg);
-    animation: 5s rotateDots infinite linear;
-  }
-
-  .background-circle-bottom {
-    position: absolute;
-    top: 90vh;
-    right: 3vw;
-    animation: 5s rotateDots infinite linear;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  .money-control-left {
+  .invoicing-right {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,14 +105,14 @@ $green: #00D385;
     }
   }
 
-  .money-control-right {
+  .invoicing-left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     width: 30%;
     opacity: 0;
-    margin-right: 10%;
+    margin-left: 10%;
 
     .list-item {
       display: flex;
@@ -118,7 +137,6 @@ $green: #00D385;
   .transition-on {
     animation: 2s slideFromBottom;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
   }
 }
 

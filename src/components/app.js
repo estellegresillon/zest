@@ -4,6 +4,10 @@ import "./app.scss";
 import Header from "./common/header";
 import HeroScene from "./hero-scene";
 import MoneyControl from "./money-control";
+import Invoicing from "./invoicing";
+import MobileAccounts from "./mobile-accounts";
+import Multilingual from "./multilingual";
+import TryForFree from "./try-for-free";
 import Background from "./common/background";
 
 const App = () => {
@@ -12,24 +16,10 @@ const App = () => {
       <Header />
       <HeroScene />
       <MoneyControl />
-
-      <section className="invoicing">
-        Simplified invoicing and billing
-        <img className="trapeze" src="trapeze-invoicing.svg" alt="bg-trapeze" />
-      </section>
-
-      <section className="mobile-accounts">
-        Mobile accounts without boundaries
-      </section>
-
-      <section className="multilingual">
-        We are here for you in 5 languages
-      </section>
-
-      <section className="try-for-free">
-        Try Zest for free.
-      </section>
-
+      <Invoicing />
+      <MobileAccounts />
+      <Multilingual />
+      <TryForFree />
       <Background />
     </div>
   );
