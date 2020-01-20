@@ -1,13 +1,27 @@
 $main: #04004D;
 
+@font-face {
+  font-family: 'Axiforma Regular';
+  src: local('Axiforma Regular'), url(./fonts/Axiforma-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Axiforma SemiBold';
+  src: local('Axiforma SemiBold'), url(./fonts/Axiforma-SemiBold.woff) format('woff');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Axiforma Regular', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $main;
+}
+
+h1, h2, h3, .menu-item {
+  font-family: 'Axiforma SemiBold';
 }
 
 code {

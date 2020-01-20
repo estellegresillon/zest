@@ -15,12 +15,12 @@ const App = () => {
 
       <section className="money-control">
         Total control over your money
-        <div className="trapeze" />
+        <img className="trapeze" src="trapeze-money-control.svg" alt="bg-trapeze" />
       </section>
 
       <section className="invoicing">
         Simplified invoicing and billing
-        <div className="trapeze" />
+        <img className="trapeze" src="trapeze-invoicing.svg" alt="bg-trapeze" />
       </section>
 
       <section className="mobile-accounts">

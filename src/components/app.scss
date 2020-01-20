@@ -1,14 +1,10 @@
 $main: #04004D;
 $green: #00D385;
 $purple: #9D98EC;
-$trapeze: #F6F8FF;
-$lines: #DDE6EF;
 
 .Zest {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 
   section {
@@ -21,27 +17,23 @@ $lines: #DDE6EF;
 
     .trapeze {
       position: absolute;
+      top: 0;
       z-index: -1;
-      border-bottom: 100vw solid $trapeze;
-      border-left: 40vh solid transparent;
-      border-right: 40vh solid transparent;
-      width: 100vh;
-      height: 0px;
     }
 
     &.money-control {
       .trapeze {
-        left: -90vh;
-        transform: rotate(90deg);
+        left: 0;
+        width: 50vw;
       }
     }
 
     &.invoicing {
-      margin-top: 50vh;
+      margin-top: 10vh;
 
       .trapeze {
-        right: calc(-90vh + 1px);
-        transform: rotate(-90deg);
+        right: 0;
+        width: calc(50vw + 1px);
       }
     }
 
