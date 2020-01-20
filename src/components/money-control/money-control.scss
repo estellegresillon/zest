@@ -1,7 +1,12 @@
+$lines: #DDE6EF;
+$darker-lines: #7C79A6;
+$purple: #9D98EC;
+$green: #00D385;
+
 .money-control {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 145vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,5 +14,128 @@
   .trapeze {
     left: 0;
     width: 50vw;
+  }
+
+  .dot {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 3px;
+  }
+
+  .grey-dot-center {
+    top: 37vh;
+    left: 52vw;
+    background-color: $lines;
+    transform: rotate(42deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .grey-dot-left {
+    top: 27vh;
+    left: 5vw;
+    background-color: $lines;
+    transform: rotate(42deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .green-dot-right {
+    top: 25vh;
+    right: 4vw;
+    background-color: $green;
+    animation: 3s rotateDots infinite;
+  }
+
+  .green-dot-left {
+    top: 110vh;
+    left: 10vw;
+    background-color: $green;
+    transform: rotate(67deg);
+    animation: 5s rotateDots infinite linear;
+  }
+
+  .background-circle-bottom {
+    position: absolute;
+    top: 90vh;
+    right: 3vw;
+    animation: 5s rotateDots infinite linear;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .money-control-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    margin: 0 10%;
+
+    img {
+      opacity: 0;
+    }
+  }
+
+  .money-control-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 30%;
+    opacity: 0;
+    margin-right: 10%;
+
+    .list-item {
+      display: flex;
+      align-items: center;
+
+      .purple-dot-key {
+        position: relative;
+        background-color: $purple;
+        margin-right: 20px;
+        top: -2px;
+      }
+    }
+
+    .conclusion {
+      margin-top: 30px;
+      padding: 30px 20px 0 0;
+      border-top: 1px solid $lines;
+      color: $darker-lines;
+    }
+  }
+
+  .transition-on {
+    animation: 2s slideFromBottom;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+  }
+}
+
+@keyframes slideFromBottom {
+  from {
+    opacity: 0;
+    margin-top: 10%;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0%;
+  }
+}
+
+@keyframes rotateDots {
+  from {
+    margin-top: 0px;
+    transform: rotate(0deg);
+  }
+  50% {
+    margin-top: 15px;
+    transform: rotate(180deg);
+  }
+  to {
+    margin-top: 0px;
+    transform: rotate(360deg);
   }
 }

@@ -67,14 +67,14 @@ $green: #00D385;
 
   .background-circle-top {
     position: absolute;
-    bottom: 44vh;
+    top: 56vh;
     right: 3vw;
     animation: 2s rotateDots infinite;
   }
 
   .background-circle-bottom {
     position: absolute;
-    bottom: 4vh;
+    top: 96vh;
     left: 43vw;
     animation: 5s rotateDots infinite linear;
   }
