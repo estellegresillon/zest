@@ -3,20 +3,15 @@ import React from "react";
 import "./app.scss";
 import Header from "./common/header";
 import HeroScene from "./hero-scene";
+import MoneyControl from "./money-control";
 import Background from "./common/background";
 
 const App = () => {
   return (
     <div className="Zest">
       <Header />
-
       <HeroScene />
-
-      <section className="money-control">
-        Total control over your money
-        <img src="money-control.svg" alt="money-control" />
-        <img className="trapeze" src="trapeze-money-control.svg" alt="bg-trapeze" />
-      </section>
+      <MoneyControl />
 
       <section className="invoicing">
         Simplified invoicing and billing

@@ -12,20 +12,6 @@ $purple: #9D98EC;
     z-index: -1;
   }
 
-  .money-control {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .trapeze {
-      left: 0;
-      width: 50vw;
-    }
-  }
-
   .invoicing {
     position: relative;
     width: 100vw;
