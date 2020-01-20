@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1440px" height="731px" viewBox="0 0 1440 731" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1440px" height="737px" viewBox="0 0 1440 737" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
-    <title>3AA83168-6E8E-4A29-BC93-E08FC0617ABC</title>
+    <title>5456E4DF-C38E-4560-9B45-77AAAEE99AA6</title>
     <desc>Created with sketchtool.</desc>
     <defs>
-        <linearGradient x1="50%" y1="-5.55904436%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#9184EC" stop-opacity="0.17" offset="0%"></stop>
-            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="50%" y1="-30.2797968%" x2="50%" y2="46.9186161%" id="linearGradient-2">
-            <stop stop-color="#9184EC" stop-opacity="0.1" offset="0%"></stop>
+        <linearGradient x1="44.72733%" y1="37.6796082%" x2="60.0636686%" y2="63.0617284%" id="linearGradient-1">
+            <stop stop-color="#9184EC" stop-opacity="0.05" offset="0%"></stop>
             <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Full-landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="landing-green-v1.3-2" transform="translate(0.000000, -316.000000)">
+        <g id="landing-green-v1.4" transform="translate(0.000000, -316.000000)">
             <g id="hero" transform="translate(-15.000000, 53.000000)">
                 <g id="stat-line-gradient" transform="translate(15.000000, 264.000000)">
-                    <path d="M0,592.912594 C102.058722,511.527369 196.613126,470.834757 283.663212,470.834757 C386.72251,471.335076 464.409276,501.107111 556.320092,500.853897 C696.032177,500.468992 784.451353,319.2381 868.869552,208 L869,726.998086 L0,730 L0,592.912594 Z" id="Path-68" fill="url(#linearGradient-1)"></path>
-                    <path d="M956,128 C1047.76146,73.3333333 1209.09479,30.6666667 1440,0 L1440,730 L956,730 L956,128 Z" id="Path-69" fill="url(#linearGradient-2)"></path>
+                    <path d="M1440,0 L1440,730 L992.5,730 L992.5,736 L0,730 L0,592.912594 C102.058722,511.527369 196.613126,470.834757 283.663212,470.834757 C386.72251,471.335076 464.408384,500.853897 556.320092,500.853897 C736.78574,500.853897 809.053416,225.658651 955.994791,128.816104 L956,128 C1047.76146,73.3333333 1209.09479,30.6666667 1440,0 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
                     <path d="M0,593 C102,511.666667 196.5,471 283.5,471 C386.5,471.5 464.142067,501.253052 556,501 C737.5,500.5 819,210 956.5,128 C1048.16667,73.3333333 1209.33333,30.6666667 1440,0" id="Line-68" stroke="#9184EC" stroke-width="1.5"></path>
                 </g>
             </g>

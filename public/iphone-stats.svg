@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="769px" height="784px" viewBox="0 0 769 784" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
-    <title>79666AD4-AF06-4C2F-8855-875CE8EB2C5A</title>
+    <title>932A69CA-D8E0-447C-9714-6421BC1E5D0C</title>
     <desc>Created with sketchtool.</desc>
     <defs>
         <rect id="path-1" x="0" y="0" width="397" height="252" rx="10"></rect>
@@ -10,12 +10,12 @@
             <stop stop-color="#E7E7E7" offset="100%"></stop>
         </linearGradient>
         <path d="M0,3 L0,42.2307692 C2.02906125e-16,43.8876235 1.34314575,45.2307692 3,45.2307692 L56.7113821,45.2307692 C58.3682364,45.2307692 59.7113821,43.8876235 59.7113821,42.2307692 L59.7113821,3 C59.7113821,1.34314575 58.3682364,4.11038738e-15 56.7113821,0 L3,0 C1.34314575,3.04359188e-16 -2.02906125e-16,1.34314575 0,3 Z" id="path-4"></path>
-        <rect id="path-6" x="9" y="2" width="315" height="683" rx="47"></rect>
-        <filter x="-24.4%" y="-10.7%" width="148.9%" height="122.5%" filterUnits="objectBoundingBox" id="filter-7">
+        <rect id="path-6" x="23" y="2" width="301" height="683" rx="47"></rect>
+        <filter x="-25.6%" y="-10.7%" width="151.2%" height="122.5%" filterUnits="objectBoundingBox" id="filter-7">
             <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0.00784313725   0 0 0 0 0.223529412   0 0 0 0 0.31372549  0 0 0 0.09 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0.807843137   0 0 0 0 0.843137255   0 0 0 0 0.874509804  0 0 0 0.43 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <path d="M34.0589111,0 C15.2486558,0 0,15.2694478 0,34.1050763 L0,34.1050763 L0,635.894649 C0,654.730277 15.2486558,670 34.0589111,670 L34.0589111,670 L274.941364,670 C293.751344,670 309,654.730277 309,635.894649 L309,635.894649 L309,34.1050763 C309,15.2694478 293.751344,0 274.941364,0 L274.941364,0 L34.0589111,0 Z" id="path-8"></path>
         <pattern id="pattern-10" patternUnits="objectBoundingBox" x="0%" width="100%" height="100%">
@@ -38,7 +38,7 @@
         <filter x="-31.9%" y="-27.6%" width="163.8%" height="158.6%" filterUnits="objectBoundingBox" id="filter-17">
             <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="22.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0.00784313725   0 0 0 0 0.223529412   0 0 0 0 0.31372549  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0.825944201   0 0 0 0 0.852500064   0 0 0 0 0.876641757  0 0 0 0.434249344 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-18">
             <stop stop-color="#00D385" stop-opacity="0.06" offset="0%"></stop>
@@ -46,7 +46,7 @@
         </linearGradient>
     </defs>
     <g id="Full-landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="landing-green-v1.3-2" transform="translate(-671.000000, -212.000000)">
+        <g id="landing-green-v1.4" transform="translate(-671.000000, -212.000000)">
             <g id="hero" transform="translate(-15.000000, 53.000000)">
                 <g id="iphone-stats" transform="translate(683.000000, 203.000000)">
                     <g id="Group-38" transform="translate(142.000000, 71.000000)" fill="#E7EDF1">
