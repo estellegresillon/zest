@@ -1,0 +1,17 @@
+$lines: #DDE6EF;
+
+.lined-bg {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  z-index: -999;
+
+  div {
+    border-right: 1px solid $lines;
+    height: 100%;
+    width: calc(100vw / 6);
+
+    &:last-child { border-right: 1px solid #fff; }
+  }
+}

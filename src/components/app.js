@@ -1,27 +1,41 @@
-import React from 'react';
+import React from "react";
 
-import './app.scss';
+import "./app.scss";
+import Header from "./common/header";
+import Background from "./common/background";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        Zest
-      </header>
+    <div className="Zest">
+      <Header />
+
       <section className="hero-scene">
         Smart banking for freelances
       </section>
+
       <section className="money-control">
         Total control over your money
+        <div className="trapeze" />
       </section>
-      <div className="lined-bg">
-        <div className="one" />
-        <div className="two" />
-        <div className="three" />
-        <div className="four" />
-        <div className="five" />
-        <div className="six" />
-      </div>
+
+      <section className="invoicing">
+        Simplified invoicing and billing
+        <div className="trapeze" />
+      </section>
+
+      <section className="mobile-accounts">
+        Mobile accounts without boundaries
+      </section>
+
+      <section className="multilingual">
+        We are here for you in 5 languages
+      </section>
+
+      <section className="try-for-free">
+        Try Zest for free.
+      </section>
+
+      <Background />
     </div>
   );
 }
