@@ -15,7 +15,7 @@ const TryForFree = () => {
   }
 
   return (
-    <section className="try-for-free">
+    <section id="try-for-free" className="try-for-free">
       <Waypoint
         onEnter={() => handleWaypointEnter(".try-for-free-title")}
         onLeave={() => handleWaypointLeave(".try-for-free-title")}
