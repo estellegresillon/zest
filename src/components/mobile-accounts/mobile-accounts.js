@@ -2,6 +2,7 @@ import React from "react";
 import { Waypoint } from 'react-waypoint';
 
 import "./mobile-accounts.scss";
+import "./mobile-accounts-mobile.scss";
 
 const MobileAccounts = () => {
   const handleWaypointEnter = (div) => {

@@ -2,6 +2,7 @@ import React from "react";
 import { Waypoint } from 'react-waypoint';
 
 import "./invoicing.scss";
+import "./invoicing-mobile.scss";
 
 const Invoicing = () => {
   const handleWaypointEnter = (div) => {

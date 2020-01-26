@@ -1,3 +1,5 @@
+$purple: #9D98EC;
+
 @media screen and (max-width: 728px) {
   .money-control {
     position: relative;
@@ -7,16 +9,43 @@
     width: 100vw;
     height: 100%;
 
+    .trapeze {
+      width: 100vw;
+    }
+
+    .list-item {
+      display: flex;
+      align-items: center;
+
+      .purple-dot-key {
+        position: relative;
+        background-color: $purple;
+        margin-right: 20px;
+        top: -2px;
+      }
+    }
+
+    .money-control-right {
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .money-control-left {
+      align-items: center;
+
+      img {
+        width: 110vw;
+        height: auto;
+      }
+    }
+
     .money-control-left, .money-control-right {
+      display: flex;
       position: relative;
       width: 80%;
       animation: none;
       opacity: 1;
-
-      img {
-        width: 100%;
-        height: auto;
-      }
 
       p { width: 100%; }
     }

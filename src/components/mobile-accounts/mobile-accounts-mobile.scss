@@ -1,0 +1,24 @@
+@media screen and (max-width: 728px) {
+  .mobile-accounts {
+    flex-direction: column;
+    height: 100%;
+
+    .top-section {
+      height: 100%;
+      flex-direction: column-reverse;
+
+      .left-column, .right-column {
+        width: 100%;
+      }
+    }
+
+    .bottom-section {
+      height: 100%;
+      flex-direction: column;
+
+      .left-column, .right-column {
+        width: 100%;
+      }
+    }
+  }
+}

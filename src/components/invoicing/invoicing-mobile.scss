@@ -1,0 +1,18 @@
+@media screen and (max-width: 728px) {
+  .invoicing {
+    flex-direction: column;
+    height: 100%;
+
+    .trapeze {
+      width: 100vw;
+    }
+
+    .invcoicing-left {
+      width: 100%;
+    }
+
+    .invcoicing-right {
+      width: 100vw;
+    }
+  }
+}
