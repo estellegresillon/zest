@@ -2,6 +2,7 @@ import React from "react";
 import { Waypoint } from 'react-waypoint';
 
 import "./multilingual.scss";
+import "./multilingual-mobile.scss";
 
 const Multilingual = () => {
   const handleWaypointEnter = (div) => {

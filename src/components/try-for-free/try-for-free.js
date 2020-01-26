@@ -2,6 +2,7 @@ import React from "react";
 import { Waypoint } from 'react-waypoint';
 
 import "./try-for-free.scss";
+import "./try-for-free-mobile.scss";
 
 const TryForFree = () => {
   const handleWaypointEnter = (div) => {

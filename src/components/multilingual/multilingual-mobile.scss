@@ -1,0 +1,18 @@
+@media screen and (max-width: 728px) {
+  .multilingual {
+    flex-direction: column;
+    height: 100%;
+    margin-top: 10vh;
+
+    .multilingual-left {
+      width: 80%;
+      margin-left: 0;
+    }
+
+    .multilingual-right {
+      width: 80%;
+
+      img { width: 100%; }
+    }
+  }
+}

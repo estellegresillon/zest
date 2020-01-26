@@ -1,13 +1,10 @@
 import React from "react";
 import { Waypoint } from 'react-waypoint';
 
-import { useWindowSize } from "../../hooks/useWindowSize";
 import "./money-control.scss";
 import "./money-control-mobile.scss";
 
-const MoneyControl = () => {
-  const windowSize = useWindowSize();
-  
+const MoneyControl = () => {  
   const handleWaypointEnter = (div) => {
     const el = document.querySelector(div);
     el.classList.add("transition-on");
@@ -18,19 +15,16 @@ const MoneyControl = () => {
     el.classList.remove("transition-on");
   }
 
-  const renderPicture = () => (
-    <div className="money-control-left">
-      <Waypoint
-        onEnter={() => handleWaypointEnter(".money-control-img")}
-        onLeave={() => handleWaypointLeave(".money-control-img")}
-      >
-        <img className="money-control-img" src="money-control.svg" alt="money-control" />
-      </Waypoint>
-    </div>
-  );
-  
-  const renderText = () => (
-    <>
+  return (
+    <section className="money-control">
+      <div className="money-control-left">
+        <Waypoint
+          onEnter={() => handleWaypointEnter(".money-control-img")}
+          onLeave={() => handleWaypointLeave(".money-control-img")}
+        >
+          <img className="money-control-img" src="money-control.svg" alt="money-control" />
+        </Waypoint>
+      </div>
       <Waypoint
         onEnter={() => handleWaypointEnter(".money-control-right")}
         onLeave={() => handleWaypointLeave(".money-control-right")}
@@ -60,11 +54,7 @@ const MoneyControl = () => {
           </div>
         </div>
       </Waypoint>
-    </>
-  );
-  
-  const renderBackground = () => (
-    <>
+
       <div className="dot green-dot-left" />
       <div className="dot green-dot-right" />
       <div className="dot grey-dot-left" />
@@ -72,22 +62,8 @@ const MoneyControl = () => {
       <div className="dot grey-dot-bottom" />
       <img className="background-circle-bottom" src="curve-1.svg" alt="background-circle" />
       <img className="trapeze" src="trapeze-money-control.svg" alt="bg-trapeze" />
-    </>
+    </section>
   );
-
-  return windowSize.width > 728 ? (
-    <section className="money-control">
-      {renderPicture()}
-      {renderText()}
-      {renderBackground()}
-    </section>
-  ) : (
-    <section className="money-control">
-      {renderText()}
-      {renderPicture()}
-      {renderBackground()}
-    </section>
-  )
 };
 
 export default MoneyControl;
