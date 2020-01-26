@@ -1,0 +1,27 @@
+@media screen and (max-width: 728px) {
+  .hero-scene {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    padding-top: 0;
+
+    .hero-scene-left, .hero-scene-right {
+      position: relative;
+      width: 80%;
+      animation: none;
+      opacity: 1;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      p { width: 100%; }
+    }
+
+    .hero-scene-right { width: 120%; }
+  }
+}

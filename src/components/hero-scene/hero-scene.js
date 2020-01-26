@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./hero-scene.scss";
+import "./hero-scene-mobile.scss";
 
 const HeroScene = () => {
   const goToSection = (div) => {

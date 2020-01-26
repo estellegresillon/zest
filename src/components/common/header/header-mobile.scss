@@ -1,0 +1,75 @@
+$main: #04004D;
+$main-hover: #0800a7;
+$main-active: #040038;
+
+.header-mobile {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 10vh;
+  width: 90vw;
+  padding: 0 5vw;
+  justify-content: space-between;
+  z-index: 99;
+  color: $main;
+
+  .section-left {
+    display: flex;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin-right: 50px;
+    transition: 1s all ease;
+    font-size: 24px;
+
+    img {
+      width: 50%;
+      margin: 10%;
+    }
+  }
+
+  .section-right {
+    font-size: 14px;
+    color: $main;
+    cursor: pointer;
+    transition: 1s all ease;
+
+    &:hover { color: $main-hover; }
+    &:active { 
+      color: $main-active;
+      transition: none;
+    }
+
+    .dropdown-menu-mobile {
+      position: absolute;
+      display: flex;
+      z-index: 999;
+      flex-direction: column;
+      top: 60px;
+      right: 0;
+      padding: 40px 40px 0 40px;
+      background-color: #fff;
+      box-shadow: -5px 15px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+      margin-bottom: 40px;
+    }
+
+    .nav-item { 
+      text-decoration: none;
+      color: $main;
+      margin-bottom: 50px;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 900;
+      cursor: pointer;
+      transition: 1s all ease;
+
+      &:hover { color: $main-hover; }
+      &:active { 
+        color: $main-active;
+        transition: none;
+      }
+    }
+  }
+}

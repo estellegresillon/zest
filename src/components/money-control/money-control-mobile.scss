@@ -1,0 +1,24 @@
+@media screen and (max-width: 728px) {
+  .money-control {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+
+    .money-control-left, .money-control-right {
+      position: relative;
+      width: 80%;
+      animation: none;
+      opacity: 1;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      p { width: 100%; }
+    }
+  }
+}

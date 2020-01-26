@@ -37,6 +37,20 @@ p {
   font-size: 20px;
 }
 
+@media screen and (max-width: 728px) {
+  h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  p { font-size: 16px; }
+}
+
 .green-text {
   color: $green;
 }
