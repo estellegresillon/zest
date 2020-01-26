@@ -16,7 +16,7 @@ const Header = () => {
 
       <div className="section-right">
         <div onClick={() => goToSection(".money-control")} className="menu-item">
-          BENEFITS
+          Benefits
         </div>
         <div className="btn btn-rounded" onClick={() => goToSection(".try-for-free")}>
           Start for free

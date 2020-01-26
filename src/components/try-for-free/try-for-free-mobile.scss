@@ -10,8 +10,11 @@
     }
 
     .links-to-stores {
+      flex-direction: column;
+
       .btn-store:first-child {
-        margin-right: 10px;
+        margin-bottom: 30px;
+        margin-right: 0;
       }
     }
 

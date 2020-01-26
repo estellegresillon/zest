@@ -23,7 +23,7 @@ const HeaderMobile = () => {
           <div ref={ref} className="dropdown-menu-mobile">
             <div className="navigation">
               <div onClick={() => goToSection(".money-control")} className="nav-item">
-                BENEFITS
+                Benefits
               </div>
               <div className="btn btn-rounded" onClick={() => goToSection(".try-for-free")}>
                 Start for free

@@ -8,11 +8,15 @@
     }
 
     .invoicing-left {
-      width: 100%;
+      width: 80vw;
+      margin: 0 10vw;
     }
 
     .invoicing-right {
-      width: 100vw;
+      width: 80vw;
+      margin: 0 10vw;
+
+      img { width: 120%; }
     }
   }
 }
