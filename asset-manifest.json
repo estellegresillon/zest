@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83ca6ba9.chunk.css",
+    "main.js": "/static/js/main.c9529d63.chunk.js",
+    "main.js.map": "/static/js/main.c9529d63.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.275e0d8c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.275e0d8c.js.map",
+    "static/js/2.43d84601.chunk.js": "/static/js/2.43d84601.chunk.js",
+    "static/js/2.43d84601.chunk.js.map": "/static/js/2.43d84601.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c17e5ddbc7da5a1a24c37c7851d48c60.js": "/precache-manifest.c17e5ddbc7da5a1a24c37c7851d48c60.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.83ca6ba9.chunk.css.map": "/static/css/main.83ca6ba9.chunk.css.map",
+    "static/js/2.43d84601.chunk.js.LICENSE": "/static/js/2.43d84601.chunk.js.LICENSE",
+    "static/media/index.scss": "/static/media/Axiforma-Regular.b4afda97.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.275e0d8c.js",
+    "static/js/2.43d84601.chunk.js",
+    "static/css/main.83ca6ba9.chunk.css",
+    "static/js/main.c9529d63.chunk.js"
+  ]
+}

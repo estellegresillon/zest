@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="721px" height="1155px" viewBox="0 0 721 1155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>F8C33C2F-C5D1-46E3-BF4E-B2DA88DCD6C8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FBFCFF" offset="0%"></stop>
+            <stop stop-color="#F6F8FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Full-landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-green-v1.4" transform="translate(0.000000, -1024.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-53" transform="translate(0.000000, 1024.000000)">
+                <polygon id="trapeze-money-control" points="9.68473846e-15 0 721 143.060372 720.499653 1041.35595 0 1155"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
